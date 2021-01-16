@@ -16,7 +16,7 @@ https://github.com/irvankris/simple-WEBHID-Arduino-Pro-Micro
 
 ## tantangan:
 dalam standard USB-HID, maksimum kirim-terima data adalah 64 byte. Padahal terkadang kita memerlukan kirim terima data lebih dari 64 byte.
-dari project WEBHID sebelumnya, saya belum berhasil kirim terima data lebih dari 64 byte pada HID menggunakan Arduino Pro Micro ATMega32u4
+Dari project WEBHID sebelumnya, saya belum berhasil kirim terima data lebih dari 64 byte pada HID menggunakan Arduino Pro Micro ATMega32u4
 
 ## Titik terang ... 
 Saya telah berhasil akses USB-HID MCP2221A, untuk kirim-terima I2C data lebih dari 64byte.
